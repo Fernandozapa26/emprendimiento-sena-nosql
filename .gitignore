@@ -1,0 +1,38 @@
+.env
+secrets/
+.venv/
+__pycache__/
+*.log
+node_modules/
+
+
+
+
+# Entorno virtual de Python
+.venv/
+venv/
+
+# Credenciales y variables privadas
+.env
+.env.*
+!.env.example
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos del sistema y editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Archivos de prueba y respaldo
+*.log
+*.bak
+*.tmp
+
+# Archivos locales de bases de datos
+*.db
+*.sqlite
+*.sqlite3
